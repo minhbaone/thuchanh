@@ -3,17 +3,8 @@
 using namespace std;
 
 int main() {
-    int a[10];
-    int sum=0;
-     for (int i = 0; i < 10; i++) {
-        cin >> a[i];
-    }
-    for (int i=0 ; i<3 ; i++){
-        cout <<"lan"<< a[i] <<" ";
-    }
-    for (int i = 0; i < 10; i++) {
-        sum += a[i];
-    }
-    cout<<sum;
+    int a[10]={0,1,2,3};
+    cout << "Gia tri2 : " << a[2];
+    cout << "Gia tri5 : " << a[5];
     return 0;
 }
